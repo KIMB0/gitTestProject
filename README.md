@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/KIMB0/gitTestProject.svg?branch=master)](https://travis-ci.org/KIMB0/gitTestProject)
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
