@@ -4,7 +4,7 @@ node_js:
 addons:
   ssh_known_hosts: 165.227.162.254
 before_install:
-- openssl aes-256-cbc -K $encrypted_be286571da3b_key -iv $encrypted_be286571da3b_iv
+- openssl aes-256-cbc -K $encrypted_394c2ab74843_key -iv $encrypted_394c2ab74843_iv
   -in deploy_rsa.enc -out /tmp/deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy_rsa
