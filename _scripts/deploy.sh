@@ -5,7 +5,7 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
     cd _site
     git init
         
-    git remote add deploy "root@165.227.162.254:/var/www/travis-deploy"
+    git remote add deploy "root@165.227.162.254:/var/www/travis-deploy/.git"
     git config user.name "Kim Meyer Albrechtsen"
     git config user.email "kimsen1992@gmail.com"
     
