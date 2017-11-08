@@ -6,3 +6,4 @@ openssl aes-256-cbc -K $encrypted_394c2ab74843_key -iv $encrypted_394c2ab74843_i
 eval "$(ssh-agent -s)"
 chmod 600 deploy_rsa
 ssh-add deploy_rsa
+mv deploy-key ~/.ssh/id_rsa
